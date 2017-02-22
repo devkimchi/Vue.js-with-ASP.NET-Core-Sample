@@ -1,7 +1,7 @@
 {
-  "name": "vuejs-sample",
+  "name": "vuejs-typescript-sample",
   "version": "1.0.0",
-  "description": "A Vue.js project with TypeScript",
+  "description": "A Vue.js application with TypeScript",
   "author": "Justin Yoo",
   "private": true,
   "scripts": {
