@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <only-class msg="Passed msg"/>
+    <both-props msg="Passed msg"/>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
