@@ -1,7 +1,7 @@
 {
   "name": "vuejs-typescript-aspnetcore-sample",
   "version": "1.0.0",
-  "description": "A Vue.js application with TypeScript running on ASP.NET Core",
+  "description": "A Vue.js with TypeScript application running on ASP.NET Core",
   "author": "Justin Yoo",
   "private": true,
   "scripts": {
@@ -16,7 +16,6 @@
     "aspnet-webpack": "^1.0.27",
     "axios": "^0.15.3",
     "vue": "^2.1.10",
-    "vue-axios": "^1.2.2",
     "vue-router": "^2.2.0"
   },
   "devDependencies": {

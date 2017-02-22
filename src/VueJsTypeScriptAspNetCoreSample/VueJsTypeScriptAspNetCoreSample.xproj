@@ -6,7 +6,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>39ba7a06-aeb4-4b72-9180-46685673cd78</ProjectGuid>
+    <ProjectGuid>e3834008-4e73-4a91-9010-10fc8d855c45</ProjectGuid>
     <RootNamespace>VueJsTypeScriptAspNetCoreSample</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
