@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise"
+    ],
+    "types": [
+      "vue-typescript-import-dts"
+    ],
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": false
+}
