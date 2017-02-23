@@ -1,4 +1,4 @@
-{
+﻿{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.1.0",
@@ -61,10 +61,7 @@
   },
 
   "scripts": {
-    "prepublish": [
-      "npm install",
-      "npm run build"
-    ],
+    "prepublish": [ "bower install", "dotnet bundle" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }
 }

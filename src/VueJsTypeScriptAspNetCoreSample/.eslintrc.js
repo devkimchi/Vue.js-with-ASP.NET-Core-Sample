@@ -17,10 +17,6 @@ module.exports = {
   ],
   // add your custom rules here
   'rules': {
-    'quotes': 0,
-    'semi': 0,
-    'camelcase': 0,
-    'indent': 0,
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // allow async-await
