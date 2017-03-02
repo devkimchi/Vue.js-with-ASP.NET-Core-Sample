@@ -11,6 +11,7 @@
     "types": [
       "vue-typescript-import-dts"
     ],
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true
   },
