@@ -13,7 +13,7 @@ export default class Hello extends Vue {
   photo: string = null;
   screenshotFormat: string = "image/jpeg";
 
-  private _refs: { [key: string] : Vue | Element | Vue[] | Element[] } = null;
+  private _refs: any = null;
   private _video: HTMLVideoElement = null;
   private _stream: MediaStream = null;
   private _hasUserMedia: boolean = false;
@@ -31,7 +31,7 @@ export default class Hello extends Vue {
     this.photo = canvas.toDataURL(this.screenshotFormat);
   }
 
-  getCanvas (): HTMLCanvasElement {
+  private getCanvas (): HTMLCanvasElement {
     if (!this._hasUserMedia) {
       return null;
     }
@@ -51,24 +51,29 @@ export default class Hello extends Vue {
     return null;
   }
 
-  mounted (): void {
-    this._refs = this.$refs;
-    this._video = <HTMLVideoElement>this._refs["video"];
-
-    var n: any = <any>navigator;
-    n.getUserMedia = n.getUserMedia || n.webkitGetUserMedia || n.mozGetUserMedia ||   n.msGetUserMedia || n.oGetUserMedia;
-
-    if (n.getUserMedia) {
-      n.getUserMedia({ video: true },
-        (stream) => {
-          this.src = window.URL.createObjectURL(stream);
-          this._stream = stream;
-          this._hasUserMedia = true;
-        },
-        (error) => {
-          console.log(error);
-      });
+  private getMediaDevices (): MediaDevices {
+    var md: MediaDevices = navigator.mediaDevices;
+    if (md != null) {
+      return md;
     }
+
+    md = new MediaDevices();
+    return md;
+  }
+
+  mounted (): void {
+    this._refs = <any>this.$refs;
+    this._video = <HTMLVideoElement>this._refs.video;
+
+    var md: MediaDevices = this.getMediaDevices();
+    md.getUserMedia({ video: true })
+      .then((stream) => {
+        this.src = window.URL.createObjectURL(stream);
+        this._stream = stream;
+        this._hasUserMedia = true;
+      }, (err) => {
+        console.log(err);
+      });
   }
 
   created (): void {
@@ -82,7 +87,7 @@ export default class Hello extends Vue {
 
   beforeDestroy (): void {
     this._video.pause();
-    this.src = "";
+    this.src = null;
     this._stream.getTracks()[0].stop();
   }
 
