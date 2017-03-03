@@ -19,6 +19,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueJsAspNetCoreSample", "sr
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueJsTypeScriptAspNetCoreSample", "src\VueJsTypeScriptAspNetCoreSample\VueJsTypeScriptAspNetCoreSample.xproj", "{65E50066-C436-43F0-98D1-B80F24C0CB73}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VueJsTsWebcamAspNetCoreSample", "src\VueJsTsWebcamAspNetCoreSample\VueJsTsWebcamAspNetCoreSample.xproj", "{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{65E50066-C436-43F0-98D1-B80F24C0CB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65E50066-C436-43F0-98D1-B80F24C0CB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65E50066-C436-43F0-98D1-B80F24C0CB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C61EDD7C-9A45-4CB9-BA0F-FC3591F23F66} = {B6D362B4-A378-4848-ABB8-55D57FDE5F21}
 		{65E50066-C436-43F0-98D1-B80F24C0CB73} = {B6D362B4-A378-4848-ABB8-55D57FDE5F21}
+		{6E86BF6C-54A7-4C02-84F0-5E5C1CCD1FAE} = {B6D362B4-A378-4848-ABB8-55D57FDE5F21}
 	EndGlobalSection
 EndGlobal
