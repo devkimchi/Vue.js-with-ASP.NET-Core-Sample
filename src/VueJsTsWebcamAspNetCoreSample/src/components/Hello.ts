@@ -67,11 +67,11 @@ export default class Hello extends Vue {
 
     var md: MediaDevices = this.getMediaDevices();
     md.getUserMedia({ video: true })
-      .then((stream) => {
+      .then((stream: MediaStream) => {
         this.src = window.URL.createObjectURL(stream);
         this._stream = stream;
         this._hasUserMedia = true;
-      }, (err) => {
+      }, (err: any) => {
         console.log(err);
       });
   }
@@ -79,10 +79,12 @@ export default class Hello extends Vue {
   created (): void {
     axios
       .get("/api/hello")
-      .then((res) => {
+      .then((res: any) => {
         this.msg = res.data.message;
       })
-      .catch((ex) => console.log(ex));
+      .catch((err: any) => {
+        console.log(err);
+      });
   }
 
   beforeDestroy (): void {
