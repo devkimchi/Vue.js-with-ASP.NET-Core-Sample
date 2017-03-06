@@ -5,9 +5,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import App from "./App.ts";
-export default App;
+<script>
+export default {
+  name: 'app'
+}
 </script>
 
 <style>

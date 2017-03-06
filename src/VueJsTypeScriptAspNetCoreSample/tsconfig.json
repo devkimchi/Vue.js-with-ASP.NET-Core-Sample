@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es2015",
+    "moduleResolution": "node",
     "target": "es5",
     "lib": [
       "dom",
@@ -10,6 +11,7 @@
     "types": [
       "vue-typescript-import-dts"
     ],
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true
   },
   "include": [

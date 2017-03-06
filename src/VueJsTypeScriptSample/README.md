@@ -1,4 +1,4 @@
-# vuejs-sample
+# vuejs-typescript-aspnetcore-sample
 
 > A Vue.js project
 

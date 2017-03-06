@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-import App from './App.ts'
-export default App
+import App from "./App.ts";
+export default App;
 </script>
 
 <style>

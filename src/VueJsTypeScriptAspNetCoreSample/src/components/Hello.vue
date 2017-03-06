@@ -20,9 +20,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import Hello from './Hello.ts'
-export default Hello
+<script>
+import Hello from "./Hello.ts";
+export default Hello;
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
