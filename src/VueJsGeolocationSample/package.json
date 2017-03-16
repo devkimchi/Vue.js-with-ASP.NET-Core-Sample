@@ -1,8 +1,8 @@
 {
   "name": "vuejs-geolocation-sample",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Justin Yoo <justin.yoo@aliencube.com>",
+  "description": "A Vue.js application - Geolocation",
+  "author": "Justin Yoo",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

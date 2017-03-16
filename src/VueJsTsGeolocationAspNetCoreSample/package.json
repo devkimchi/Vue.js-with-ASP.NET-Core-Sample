@@ -1,7 +1,7 @@
 {
-  "name": "vuejs-typescript-webcam-aspnetcore-sample",
+  "name": "vuejs-typescript-geolocation-aspnetcore-sample",
   "version": "1.0.0",
-  "description": "A Vue.js with TypeScript application running on ASP.NET Core - Webcam",
+  "description": "A Vue.js with TypeScript application running on ASP.NET Core - Geolocation",
   "author": "Justin Yoo",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
   "dependencies": {
     "aspnet-webpack": "^1.0.28",
     "axios": "^0.15.3",
-    "vue": "^2.2.1",
+    "vue": "^2.2.2",
     "vue-class-component": "^5.0.0",
     "vue-router": "^2.2.0"
   },
@@ -28,7 +28,7 @@
     "babel-loader": "^6.2.10",
     "babel-plugin-istanbul": "^3.1.2",
     "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-latest": "^6.22.0",
+    "babel-preset-env": "^1.2.1",
     "babel-preset-stage-2": "^6.22.0",
     "babel-register": "^6.22.0",
     "chai": "^3.5.0",
@@ -77,10 +77,10 @@
     "sinon-chai": "^2.8.0",
     "ts-loader": "^2.0.1",
     "url-loader": "^0.5.7",
-    "vue-loader": "^11.0.0",
+    "vue-loader": "^11.1.4",
     "vue-property-decorator": "^4.0.0",
     "vue-style-loader": "^2.0.0",
-    "vue-template-compiler": "^2.2.1",
+    "vue-template-compiler": "^2.2.4",
     "vue-typescript-import-dts": "^3.0.1",
     "webpack": "^2.2.1",
     "webpack-bundle-analyzer": "^2.2.1",
@@ -92,7 +92,7 @@
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserlist": [
+  "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
