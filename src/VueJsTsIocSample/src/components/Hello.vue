@@ -1,8 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Warrior: {{ warrior }}</h2>
-    <h2>Weapon: {{ weapon }}</h2>
+    <ninja></ninja>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
