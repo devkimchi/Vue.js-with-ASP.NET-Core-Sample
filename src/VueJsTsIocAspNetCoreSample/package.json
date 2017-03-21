@@ -21,6 +21,7 @@
     "reflect-metadata": "^0.1.10",
     "vue": "^2.2.2",
     "vue-class-component": "^5.0.0",
+    "vue-property-decorator": "^4.0.0",
     "vue-router": "^2.2.0"
   },
   "devDependencies": {
@@ -80,7 +81,6 @@
     "ts-loader": "^2.0.2",
     "url-loader": "^0.5.7",
     "vue-loader": "^11.1.4",
-    "vue-property-decorator": "^4.0.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.2.4",
     "vue-typescript-import-dts": "^3.0.1",
