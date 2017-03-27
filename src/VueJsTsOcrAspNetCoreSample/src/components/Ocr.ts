@@ -1,6 +1,6 @@
 import Vue from "vue";
 import { Component, Inject } from "vue-property-decorator";
-import { AxiosStatic, AxiosRequestConfig, AxiosResponse } from "axios";
+import { AxiosStatic, AxiosResponse } from "axios";
 import Symbols from "../configs/Symbols";
 
 @Component({
