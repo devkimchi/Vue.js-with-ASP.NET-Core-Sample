@@ -19,9 +19,11 @@ This provides a sample code using vue.js running on ASP.NET Core.
   * [Vue.js + 타입스크립트 + ASP.NET Core 앱에서 핸드폰의 카메라 API에 접근하기](http://blog.aliencube.org/ko/2017/03/03/accessing-to-camera-on-mobile-devices-from-vuejs-typescript-aspnetcore-apps/)
   * [Vue.js + TypeScript + ASP.NET Core 앱에서 핸드폰의 GPS 정보 이용하기](http://blog.aliencube.org/ko/2017/03/16/accessing-to-geolocation-on-mobile-devices-from-vuejs-typescript-aspnetcore-app/)
   * [Vue.js + TypeScript 앱에서 IoC 컨테이너 사용하기](http://blog.aliencube.org/ko/2017/03/21/using-ioc-container-in-vuejs-typescript-app/)
+  * [HTML5 Media Capture API와 Azure Cognitive Services를 이용한 OCR 구현](http://blog.aliencube.org/ko/2017/03/28/implementing-ocr-using-azure-cognitive-services-with-html5-media-capture-api/)
 * English
   * [Running Vue.js on ASP.NET Core Applications](https://blog.kloud.com.au/2017/02/14/running-vuejs-on-aspnet-core-apps/)
   * [Writing Vue.js Applications in TypeScript on ASP.NET Core](https://blog.kloud.com.au/2017/02/24/writing-vuejs-apps-in-typescript-on-aspnet-core/)
   * [Accessing to Camera on Mobile Devices from ASP.NET Core Application in Vue.js and TypeScript](https://blog.kloud.com.au/2017/03/03/accessing-to-camera-on-mobile-devices-from-aspnetcore-apps-in-vuejs-and-typescript/)
   * [Accessing to Geolocation on Mobile Devices from ASP.NET Core Application in Vue.js and TypeScript](https://blog.kloud.com.au/2017/03/17/accessing-to-geolocation-on-mobile-devices-from-aspnetcore-apps-in-vuejs-and-typescript/)
   * [Dependency Injection in Vue.js App with TypeScript](https://blog.kloud.com.au/2017/03/22/dependency-injection-in-vuejs-app-with-typescript/)
+  * [Performing OCR with Azure Cognitive Services and HTML5 Media Capture API](https://blog.kloud.com.au/2017/03/30/performing-ocr-with-azure-cognitive-services-and-html5-media-capture-api/)
